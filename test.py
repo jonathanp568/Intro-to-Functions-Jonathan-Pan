@@ -22,4 +22,8 @@ def square(x):
     t.forward(x)
     t.left(90)
 
-square(200)
+# for i in range(60):
+#     square(100)
+#     t.right(5)
+#     t.speed(10000)
+
