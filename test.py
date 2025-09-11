@@ -22,8 +22,37 @@ def square(x):
     t.forward(x)
     t.left(90)
 
+def equaltri(x):
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+
+def righttri(x):
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(135)
+    t.forward(142)
+
 # for i in range(60):
 #     square(100)
 #     t.right(5)
 #     t.speed(10000)
 
+# def addSquares(iRange):
+#     length = 5
+#     for i in range(iRange):
+#         square(length)
+#         length += 5
+#         t.right(5)
+#         t.speed(10000)
+# addSquares(60)
+
+def doubleSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length)
+        length = length * 2
+doubleSquares(10)
