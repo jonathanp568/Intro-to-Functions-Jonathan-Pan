@@ -8,9 +8,9 @@ t.shape('turtle')
 # t.forward(200)
 # turtle.done()
 
-def message (input):
-    print(input)
-message("hello class")
+# def message (input):
+#     print(input)
+# message("hello class")
 
 def square(x):
     t.forward(x)
@@ -38,24 +38,16 @@ def righttri(x):
 
 def star(x):
     t.forward(x)
-    t.right(144)
+    t.left(144)
     t.forward(x)
-    t.right(144)
+    t.left(144)
     t.forward(x)
-    t.right(144)
+    t.left(144)
     t.forward(x)
-    t.right(144)
+    t.left(144)
     t.forward(x)
-
-def addstar(x):
-    length = 5
-    for i in range (x):
-        star(length)
-        length+= 10
-        t.left(181)
-        t.speed(10000)
-    
-addstar(60)
+    t.left(144)
+star(200)
 
 # for i in range(60):
 #     square(100)
