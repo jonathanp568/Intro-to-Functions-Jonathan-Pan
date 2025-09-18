@@ -69,3 +69,13 @@ def star(x):
 #         length = length * 2
 # doubleSquares(10)
 
+def starspiral(iRange):
+    length = 5
+    for i in range(iRange):
+        star(length)
+        length += 5
+        t.right(5)
+        t.speed(10000)
+starspiral(60)
+
+
