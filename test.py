@@ -47,7 +47,6 @@ def star(x):
     t.left(144)
     t.forward(x)
     t.left(144)
-star(200)
 
 # for i in range(60):
 #     square(100)
